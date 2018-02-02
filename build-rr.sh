@@ -505,7 +505,7 @@ makeconfig ()
 dobuild ()
 {
 
-	checksubmodules
+	#checksubmodules
 
 	. ${BUILDRUMP}/subr.sh
 
